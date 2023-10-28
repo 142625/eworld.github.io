@@ -1,0 +1,190 @@
+<HTML>
+<HEAD>
+    <META NAME="GENERATOR" Content="Microsoft Visual Studio">
+    <link rel="shortcut icon" href="https://i.postimg.cc/kg8XyTjH/title.png">
+    <TITLE>
+        e世界—让投资更简单
+    </TITLE>
+    <base target="_blank"> <!--使超链接在新窗口打开-->
+    <style>
+
+        .home {
+            background-image: url(http://m.qpic.cn/psc?/V11VxzwK1B8T3a/ruAMsa53pVQWN7FLK88i5jrlYbqkXIefG*sYo*J.yojJ.nGc.i3PUEpFFfNbvzC0DU9ocAE3rwJKE2EuA9LfBqWvgcczGADOFHnkosdO6w0!/b&bo=sAQgAwAAAAADF6U!&rf=viewer_4); /*https://i.postimg.cc/HxVvCSSH/back.png*/
+            background-size: cover;
+            background-attachment: scroll;
+            background-repeat: no-repeat;
+            background-position: center;
+            position: relative;
+            min-width: 810px;
+            height: 100%;
+            min-height: 600px;
+        }
+
+        /*导航栏所用CSS部分*/
+        .guide ul {
+            margin: 0;
+            padding: 0;
+            height: 100%; /* 全屏高度 */
+
+            float: left; /*让导航栏固定在左侧*/
+            overflow: auto;
+        }
+
+        .guide li {
+            list-style: none; /*去掉列表项前的点·*/
+        }
+
+            /* 导航栏链接 */
+            .guide li a {
+                display: block;
+                color: black;
+                text-align: center; /*a里的文本置于中间*/
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+        /*鼠标移动到选项上修改背景颜色 */
+        a:hover {
+            background-color: gold;
+        }
+        /* 当前/活动导航栏链接 */
+        .active {
+            background-color: dodgerblue;
+        }
+        /* 添加响应能力 - 将自动在小于 500 像素的屏幕上垂直而不是水平显示导航栏 */
+        /*      @media screen and (max-width: 500px) {
+            .guide li a {
+                float: none;
+                display: block;
+            }
+        }*/
+        /*登录所用CSS*/
+        .right {
+            float: right;
+        }
+
+        /*搜索框所用CSS*/
+        .box {
+            width: 500px;
+            height: 40px;
+            border: 2px solid red;
+            margin: auto;
+        }
+
+        .input {
+            float: left;
+            width: 400px; /*宽400*/
+            height: 38px; /*高38（因为文本框内外边框要占用1像素所以总体高度减2，其他盒子同理）*/
+            outline: none;
+            border: none; /*取消文本框内外边框*/
+        }
+
+        .button {
+            float: left;
+            width: 100px;
+            height: 40px;
+            color: white;
+            background-color: red; /*将按钮背景设置为红色，字体设置为白*/
+            border: none;
+            outline: none; /*取消边框和外边框将按钮边框去掉*/
+        }
+        /*超链接所用CSS*/
+        a {
+            
+            text-decoration: none;  /*取消下划线*/
+        }
+    </style>
+</HEAD>
+<BODY>
+    <div class="home">
+        <!--1.图标和登录部分-->
+        <img src="https://i.postimg.cc/kg8XyTjH/title.png" width="70" height="70" />
+        <div class="right">
+            <a href="login.htm" style="display:block">
+                <img src="https://i.postimg.cc/Y9d7dyvH/user.jpg" width="50" height="50" />
+                <p style="text-align:center ">
+                    登录
+                </p>
+            </a>
+
+        </div>
+        <!--2.搜索框部分-->
+        <div class="box">
+            <input type="text" class="input" placeholder="输入股票代码、名称或关键词">
+            <!--placeholder是文本框中的提示文字-->
+            <input type="button" value="查询" class="button">
+            <div>
+                <p style="padding-top:40px">
+                    <strong>热门搜索:</strong>
+                    <a href="http://data.eastmoney.com/gzfx/">A股估值分析全览</a>
+                    <a href="https://so.eastmoney.com/Web/s?keyword=%E8%83%BD%E6%BA%90%E9%87%91%E5%B1%9E">能源金属板块领涨</a>
+                    <a href="http://so.eastmoney.com/web/s?keyword=%E6%98%A8%E6%97%A5%E6%B6%A8%E5%81%9C&pageindex=1">昨日涨停</a>
+                </p>
+            </div>
+        </div>
+        
+            
+        
+        <!--导航部分-->
+        <div class="guide">
+            <ul>
+                <li>
+                    <a class="active" herf="">
+                        <p>
+
+                            <img src="https://i.postimg.cc/YS3BSyfW/shouye.png" width="50" height="50" />
+                        </p>
+                        首页
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <p>
+                            <img src="https://i.postimg.cc/HWwF2N78/AI.png" width="50" height="50" />
+                        </p>
+                        AI
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <p>
+                            <img src="https://i.postimg.cc/xCVmRkyv/interact.png" width="50" height="50" />
+                        </p>
+                        交流
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <p>
+                            <img src="https://i.postimg.cc/wBKjNPm4/news.png" width="50" height="50" />
+                        </p>
+                        资讯
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <p>
+                            <img src="https://i.postimg.cc/rm3sTXRq/trade.png" width="50" height="50" />
+                            
+                        </p>
+                        交易
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <p>
+                            
+                            <img src="https://i.postimg.cc/d17YWPz2/more.png" width="50" height="50" />
+                        </p>
+                        更多
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+
+    </div>
+
+
+</BODY>
+</HTML>
